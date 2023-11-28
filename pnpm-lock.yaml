@@ -208,6 +208,9 @@ importers:
       typescript:
         specifier: 5.4.2
         version: 5.4.2
+      vite:
+        specifier: ^5.0.4
+        version: 5.2.8(@types/node@18.19.29)
       yargs:
         specifier: ^17.3.0
         version: 17.7.2
@@ -261,13 +264,13 @@ importers:
         version: 18.2.23
       '@vitejs/plugin-react':
         specifier: ^4.2.1
-        version: 4.2.1(vite@4.5.3)
+        version: 4.2.1(vite@5.2.8)
       typescript:
         specifier: 5.4.2
         version: 5.4.2
       vite:
-        specifier: ^4.5.3
-        version: 4.5.3(@types/node@18.19.29)
+        specifier: ^5.0.4
+        version: 5.2.8(@types/node@18.19.29)
 
   dev/starter-next-studio:
     dependencies:
@@ -529,8 +532,8 @@ importers:
         version: 2.29.6(three@0.157.0)
     devDependencies:
       vite:
-        specifier: ^4.5.3
-        version: 4.5.3(@types/node@18.19.29)
+        specifier: ^5.0.4
+        version: 5.2.8(@types/node@18.19.29)
 
   examples/blog-studio:
     dependencies:
@@ -1233,7 +1236,7 @@ importers:
         version: 8.5.10
       '@vitejs/plugin-react':
         specifier: ^4.2.1
-        version: 4.2.1(vite@4.5.3)
+        version: 4.2.1(vite@5.2.8)
       express:
         specifier: ^4.18.3
         version: 4.19.2
@@ -1268,8 +1271,8 @@ importers:
         specifier: ^6.1.8
         version: 6.1.8(react-dom@18.2.0)(react@18.2.0)
       vite:
-        specifier: ^4.5.3
-        version: 4.5.3(@types/node@18.19.29)
+        specifier: ^5.0.4
+        version: 5.2.8(@types/node@18.19.29)
 
   packages/@sanity/schema:
     dependencies:
@@ -1615,7 +1618,7 @@ importers:
         version: 0.0.6
       '@vitejs/plugin-react':
         specifier: ^4.2.1
-        version: 4.2.1(vite@4.5.3)
+        version: 4.2.1(vite@5.2.8)
       archiver:
         specifier: ^7.0.0
         version: 7.0.1
@@ -1827,8 +1830,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0(react@18.2.0)
       vite:
-        specifier: ^4.5.1
-        version: 4.5.3(@types/node@18.19.29)
+        specifier: ^5.0.4
+        version: 5.2.8(@types/node@18.19.29)
       yargs:
         specifier: ^17.3.0
         version: 17.7.2
@@ -1841,7 +1844,7 @@ importers:
         version: 29.7.0
       '@playwright/experimental-ct-react':
         specifier: 1.41.2
-        version: 1.41.2(@types/node@18.19.29)(vite@4.5.3)
+        version: 1.41.2(@types/node@18.19.29)(vite@5.2.8)
       '@playwright/test':
         specifier: 1.41.2
         version: 1.41.2
@@ -5003,13 +5006,13 @@ packages:
       - terser
     dev: true
 
-  /@playwright/experimental-ct-react@1.41.2(@types/node@18.19.29)(vite@4.5.3):
+  /@playwright/experimental-ct-react@1.41.2(@types/node@18.19.29)(vite@5.2.8):
     resolution: {integrity: sha512-BMcxh2DM3t8nMgUJKWMWAXGIzcYY/4w1ibckGP48edHU/cmZCbI5W7mUXfxMhYCt4mQJ1NuYcFIg5Jt+QVIuRQ==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
       '@playwright/experimental-ct-core': 1.41.2(@types/node@18.19.29)
-      '@vitejs/plugin-react': 4.2.1(vite@4.5.3)
+      '@vitejs/plugin-react': 4.2.1(vite@5.2.8)
     transitivePeerDependencies:
       - '@types/node'
       - less
