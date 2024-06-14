@@ -27,7 +27,7 @@ const CellValidation = ({validation}: {validation: FormNodeValidation[]}) => {
     return null
   }
   return (
-    <ValidationIconContainer>
+    <ValidationIconContainer id="validation-icon">
       <FormFieldValidationStatus validation={validation} fontSize={0} />
     </ValidationIconContainer>
   )
@@ -75,6 +75,16 @@ const DataCell = styled.td<DataCellProps>((props) => {
       transition: box-shadow 0.1s;
       box-shadow: inset 0px 0px 0px ${$cellState === 'focused' ? 2 : 1}px
         var(--card-focus-ring-color);
+    }
+
+    & #validation-icon {
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+    :hover {
+      & #validation-icon {
+        opacity: 1;
+      }
     }
   `
 })
