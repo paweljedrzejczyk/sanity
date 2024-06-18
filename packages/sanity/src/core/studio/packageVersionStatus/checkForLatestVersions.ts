@@ -6,6 +6,7 @@ interface VersionMap {
 //e2e tests also check for this URL pattern -- please update if it changes!
 const MODULES_URL_VERSION = 'v1'
 const MODULES_HOST =
+  // eslint-disable-next-line turbo/no-undeclared-env-vars
   process.env.SANITY_INTERNAL_ENV === 'staging'
     ? 'https://sanity-cdn.work'
     : 'https://sanity-cdn.com'
