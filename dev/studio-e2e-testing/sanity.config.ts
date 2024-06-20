@@ -95,8 +95,4 @@ export default defineConfig({
 
   plugins: [sharedSettings()],
   basePath: '/test',
-  // eslint-disable-next-line camelcase
-  __internal_serverDocumentActions: {
-    enabled: true,
-  },
 })
